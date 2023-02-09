@@ -1,0 +1,17 @@
+Pasar a un commit deseado
+git checkout master
+
+Ver registro en una línea
+git log --pretty=oneline
+
+Desacer operación
+git switch - 
+
+Subir una rama a GitHub
+git push -u origin master
+
+Converir una rama específica en master
+git checkout 347da22
+git merge --strategy=ours master
+git checkout master
+git merge 347da22
