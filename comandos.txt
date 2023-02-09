@@ -4,8 +4,8 @@ git checkout master
 Ver registro en una línea
 git log --pretty=oneline
 
-Desacer operación
-git switch - 
+Agregar un commit
+git commit -m "Add comandos.txt file"
 
 Subir una rama a GitHub
 git push -u origin master
